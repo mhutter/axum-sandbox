@@ -10,4 +10,4 @@ axum = { version = "0.7.5", default-features = false, features = ["http1", "toki
 axum-extra = { version = "0.9.3", features = ["cookie"] }
 tokio = { version = "1.36.0", features = ["rt-multi-thread", "net"] }
 tracing = { version = "0.1.40", default-features = false, features = ["std"] }
-tracing-subscriber = { version = "0.3.18", default-features = false, features = ["std", "fmt", "ansi"] }
+tracing-subscriber = { version = "0.3.20", default-features = false, features = ["std", "fmt", "ansi"] }
